@@ -13,7 +13,6 @@ header,footer {
 
 input,textarea {
   background-color: transparent;
-  border: none;
   outline: none;
   font-size: 20px;
   text-align: center;
