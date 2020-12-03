@@ -11,10 +11,63 @@ header,footer {
   height: 100px;
 }
 
-input {
+input,textarea {
   background-color: transparent;
   border: none;
   outline: none;
   font-size: 20px;
+  text-align: center;
+  overflow: wrap;
 }
 
+textarea {
+  height: 70%;
+}
+
+header {
+  display: flex;
+  align-items: center ;
+  justify-content: center;
+}
+
+.page-title {
+  margin:0;
+  font-size: 60px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  width: 40%;
+  height: 200px;
+  position: relative;
+  list-style: none;
+  box-shadow: 1px 1px 5px;
+}
+
+.title,.content,li button {
+  position: absolute;
+}
+
+.title {
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+}
+
+.content {
+  left: 50%;
+  top:20%;
+  transform: translateX(-50%);
+}
+
+footer {
+  bottom: 0;
+  margin: 0;
+}
