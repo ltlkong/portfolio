@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/ltlkong/portfolio/issues"
   },
-  "homepage": "https://github.com/ltlkong/portfolio#readme"
+  "homepage": "https://github.com/ltlkong/portfolio#readme",
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-sourcemap": "^1.0.1",
+    "imagemin": "^7.0.1",
+    "postcss": "^8.1.14"
+  }
 }
