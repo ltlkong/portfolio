@@ -4,6 +4,7 @@ const cssnano = require("cssnano");
 const srcmaps = require("gulp-sourcemaps");
 const concat = require("gulp-concat");
 const imagemin = require("gulp-imagemin");
+const jsmin = require("gulp-jsmin");
 
 function cssTask() {
   return src("src/*.css")
@@ -20,6 +21,7 @@ function htmlTask() {
 
 function jsTask() {
   return src("src/*.js")
+  .pipe(jsmin())
   .pipe(concat("all.js"))
   .pipe(dest("dist/js"));
 }
