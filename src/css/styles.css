@@ -13,9 +13,7 @@ input,textarea {
   outline: none;
   font-size: 20px;
   text-align: center;
-  overflow: wrap;
   width: 200px;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
