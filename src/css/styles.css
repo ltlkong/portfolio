@@ -47,7 +47,8 @@ ul {
 ul li {
   width: 40%;
   min-width: 300px;
-  height: 200px;
+  min-height: 200px;
+  height: fit-content;
   position: relative;
   list-style: none;
   box-shadow: 1px 1px 5px;
@@ -67,11 +68,6 @@ ul li {
   left: 50%;
   top:20%;
   transform: translateX(-50%);
-}
-
-.btn-show-text {
-  bottom: 5%;
-  left:5%;
 }
 
 .btn-edit {

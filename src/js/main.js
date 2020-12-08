@@ -1,6 +1,8 @@
-const btnShowText = document.querySelector(".btn-show-text"),
-btnEdit = document.querySelector("btn-edit"),
-btn = document.querySelector(".btn-remove");
+const btnEdit = document.querySelector("btn-edit"),
+btnRem = document.querySelector(".btn-remove"),
+btnAddList = document.querySelector(".btn-add-list");
 
 btnShowText.onclick = function(){
+  const text = document.querySelector("textarea");
+
 }
