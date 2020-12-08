@@ -1,5 +1,4 @@
-const btnEdit = document.querySelector("btn-edit"),
-btnRem = document.querySelectorAll(".btn-remove"),
+const btnRem = document.querySelectorAll(".btn-remove"),
 btnAddList = document.querySelector(".btn-add-list");
 
 let id = 0;
