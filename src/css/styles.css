@@ -3,12 +3,9 @@ body{
   margin: 0;
 }
 
-main {
-  min-height: calc(100vh - 200px);
-}
-
-header,footer {
-  height: 100px;
+footer {
+  position: absolute;
+  bottom: 0px;
 }
 
 input,textarea {
@@ -17,7 +14,7 @@ input,textarea {
   font-size: 20px;
   text-align: center;
   overflow: wrap;
-  min-width: 200px;
+  width: 200px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -98,4 +95,9 @@ button {
 
 button:hover {
   cursor: pointer;
+}
+
+footer button {
+  width: 60px;
+  height: 60px;
 }
